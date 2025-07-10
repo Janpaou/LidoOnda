@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/fotolido"
+            android:layout_width="wrap_content"
+            android:layout_height="275dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/fotolido"></ImageView>
+
+        <TextView
+            android:id="@+id/descrizione"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fotolido"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Benvenuti al nostro incantevole lido balneare, un'oasi di relax e divertimento situata lungo la splendida costa. Concedetevi una pausa dal quotidiano immergendovi nelle acque cristalline del nostro mare, dove la sabbia dorata accoglie i vostri passi e il dolce suono delle onde culla i vostri sensi.\n\nIl nostro lido offre una varietà di servizi e comfort per assicurare una giornata indimenticabile. Scegliete tra comode sdraio e ombrelloni per rilassarvi sotto il caldo sole estivo o trovare riparo all'ombra. Il nostro personale cortese è sempre pronto ad assistervi, garantendo un'esperienza senza preoccupazioni.\n\nVivi la magia di una giornata al mare nel nostro lido balneare, dove la bellezza della natura si fonde con il comfort moderno per regalarti momenti di puro piacere e relax." />
+
+    </RelativeLayout>
+    <!-- TODO: Update blank fragment layout -->
+
+</FrameLayout>

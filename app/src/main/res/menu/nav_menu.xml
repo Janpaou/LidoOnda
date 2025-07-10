@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_home"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"
+        />
+        <item
+            android:id="@+id/nav_servizi"
+            android:title="Servizi"
+            android:icon="@drawable/baseline_info_24"
+            />
+        <item
+            android:id="@+id/nav_prenotazioni"
+            android:title="Prenotazioni"
+            android:icon="@drawable/baseline_format_list_bulleted_24"
+            android:visible="false"
+            />
+        <item
+            android:id="@+id/nav_contatti"
+            android:title="Contatti"
+            android:icon="@drawable/baseline_call_24"
+            />
+        <item
+            android:id="@+id/nav_galleria"
+            android:title="Galleria"
+            android:icon="@drawable/baseline_image_24"
+            />
+            <item
+                android:id="@+id/nav_profile"
+                android:title="Profile"
+                android:visible="false"
+                android:icon="@drawable/baseline_accessibility_24"
+                />
+
+    </group>
+
+    <item android:title="">
+
+        <menu>
+            <item
+                android:id="@+id/nav_login"
+                android:title="Login"
+                android:visible="true"
+                android:icon="@drawable/baseline_login_24"/>
+            <item
+                android:id="@+id/nav_signup"
+                android:title="Registrati"
+                android:visible="true"
+                android:icon="@drawable/baseline_playlist_add_24"/>
+            <item
+                android:id="@+id/nav_logout"
+                android:title="Logout"
+                android:visible="false"
+                android:icon="@drawable/baseline_logout_24"/>
+        </menu>
+    </item>
+
+</menu>

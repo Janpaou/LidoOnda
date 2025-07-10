@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AttivitaFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Balneazione:\n \t
+Accesso diretto al mare o a una piscina per nuotare e rilassarsi.\n2. Animazione per bambini: \n \tMini club, giochi in spiaggia, laboratori creativi.\n3. Noleggio di attrezzature: \n \tOmbrelloni, lettini, asciugamani, giochi da spiaggia.\n4. Bar sulla spiaggia: \n \tOfferta di cibo e bevande con vista sul mare.\n5. Musica e intrattenimento dal vivo: \n \tConcerti, DJ set, spettacoli serali.\n6. Massaggi e servizi benessere: \n \tZone relax, massaggi sulla spiaggia, servizi spa.\n7. Parchi giochi acquatici: \n \tStrutture con scivoli e giochi d'acqua per bambini.\n8. Eventi tematici: \n \tFeste in spiaggia, serate a tema, eventi speciali.\n9. Noleggio barche e escursioni: \n \tOpportunità di esplorare il mare con imbarcazioni a noleggio o partecipare a escursioni organizzate.\n10. Percorsi ciclabili e passeggiate: \n \tAffitto di biciclette, percorsi pedonali lungo la costa.\n11. Servizio di salvataggio: \n \tPersonale qualificato per garantire la sicurezza in acqua.\n12. Wi-Fi gratuito: \n \tConnessione internet per i visitatori.\n13. Servizi igienici e docce: \n \tZone apposite per igiene personale dopo il bagno.\n14. Negozi di souvenir: \n \tVendita di oggetti ricordo e articoli da spiaggia.
+"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginVertical="20dp"/>
+
+</FrameLayout>

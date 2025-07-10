@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Theme.MyMovieTheatre" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/sand</item>
+        <item name="colorPrimaryVariant">@color/sand</item>
+        <item name="android:statusBarColor">@color/sand</item>
+        
+    </style>
+    <style name="Theme.MyMovieTheatre" parent="Base.Theme.MyMovieTheatre"></style>
+</resources>

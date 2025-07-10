@@ -32,7 +32,7 @@
             </intent-filter>
         </activity>
         <meta-data android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDG3jgzZw6FlpD3qUG8snZ6v5Bn-1IBPbk"></meta-data>
+            android:value="GoogleKeyAPI"></meta-data>
         <activity android:name=".MapsActivity"
             android:screenOrientation="portrait"/>
     </application>

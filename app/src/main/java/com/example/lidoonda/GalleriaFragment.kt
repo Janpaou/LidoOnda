@@ -51,5 +51,11 @@ class GalleriaFragment : Fragment() {
         }
         recyclerView.adapter = ImageAdapter(dataList)
     }
+    override fun onDestroyView() {
+        super.onDestroyView()
+        recyclerView.adapter = null
+        dataList.clear()
+    }
+
 
 }
